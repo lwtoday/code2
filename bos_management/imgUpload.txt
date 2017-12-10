@@ -1,0 +1,32 @@
+POST /bos_management/image_upload.action?dir=image HTTP/1.1
+Host: localhost:9001
+Connection: keep-alive
+Content-Length: 103959
+Pragma: no-cache
+Cache-Control: no-cache
+Origin: http://localhost:9001
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTK21W11ZM198s2Uu
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://localhost:9001/bos_management/pages/take_delivery/promotion_add.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=B641301AA8DD3CFDA83E7BB67F7832C5; JSESSIONID=26F98B2619F3757BDF9D899EEA7FA969
+Query String Parameters
+view source
+view URL encoded
+dir:image
+Request Payload
+------WebKitFormBoundaryTK21W11ZM198s2Uu
+Content-Disposition: form-data; name="localUrl"
+
+C:\fakepath\0fa5ecf9-a3e1-49d6-b480-7a14fc4d83b8.jpg
+------WebKitFormBoundaryTK21W11ZM198s2Uu
+Content-Disposition: form-data; name="imgFile"; filename="0fa5ecf9-a3e1-49d6-b480-7a14fc4d83b8.jpg"
+Content-Type: image/jpeg
+
+
+------WebKitFormBoundaryTK21W11ZM198s2Uu--
+
+返回：{"error":0,"url":"\/bos_management\/upload\/16d3137a-f299-4083-92d7-2a12764db1f4.jpg"}
